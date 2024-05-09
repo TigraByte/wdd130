@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rock+Salt&display=swap');
+
+*{
+    max-width: 1024px;
+}
+
+:root{
+    --primary-color: #3a99cf; 
+    --secondary-color: #143e30;
+    --accent1-color: #846c5b;
+    --accent2-color: #e2e8dd;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Inter', serif;
+
+    --nav-background-color: #143e30;
+    --nav-link-color: #e2e8dd;
+    --nav-hover-link-color: #e2e8dd;
+    --nav-hover-background-color: #143e30;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+p{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding-left: 10px;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+div h1{
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    opacity: .7;
+}
+
+div article{
+    position: absolute;
+    top: 120px;
+    margin: auto;
+    height: auto;
+    background-color: var(--accent2-color);
+    opacity: .8;
+    width: 80%;
+    right: 10%;
+}
+div article img{
+     /*img inside the article floats to right of p*/
+    width: auto;
+    height: 130px;
+    float: right;
+    padding: 10px;
+}
+main img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    opacity: .9
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+footer{
+    text-align: center
+}
