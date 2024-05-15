@@ -100,3 +100,10 @@ nav a:hover {
 footer{
     text-align: center
 }
+header{
+    display: grid;
+    grid-template-columns: 45% repeat(4, 20%);
+    justify-content: center;
+    justify-items: center;
+    gap: 1em;
+}
