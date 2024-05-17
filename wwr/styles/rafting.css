@@ -15,7 +15,7 @@
 
     --nav-background-color: #143e30;
     --nav-link-color: #e2e8dd;
-    --nav-hover-link-color: #e2e8dd;
+    --nav-hover-link-color: #846c5b;
     --nav-hover-background-color: #143e30;
 }
 
@@ -34,9 +34,7 @@ p{
     padding-left: 10px;
 }
 
-.sociallinks {
-    text-decoration: none;
-}
+
 
 div h1{
     position: absolute;
@@ -78,32 +76,97 @@ main img {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
-    opacity: .9
+    opacity: .9;
+    text-align: center;
+
+    
 }
 nav a {
-    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link,
-nav a:visited {
+.navigation a:link,
+.navigation a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
+.navigation a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
 footer{
-    text-align: center
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 3px 3px;
+    margin-top: 5px;
+    color: var(--accent2-color)
 }
-header{
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	border-bottom: 2px solid black;
+	max-width: 1000px;
+    background-color: var(--secondary-color);
+    align-items: center;
+}
+header img{
+    height: 75px;
+    width: auto;
+    margin-left: 40%;
+}
+
+section h2{
+    text-align: center;
+}
+.history-description{
     display: grid;
-    grid-template-columns: 45% repeat(4, 20%);
-    justify-content: center;
-    justify-items: center;
-    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navigation {
+	display: flex;
+	list-style: none;
+}
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    align-self: center;
+}
+
+.sociallinks a{
+    padding: 5px;
+    margin: 3px;
+}
+.sociallinks a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--secondary-color)
+}
+.sociallinks {
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    padding-left: 15%;
+    text-decoration: none;
+}
+.history-description img{
+    border: 2px solid #143e30;
+}
+.history-description p{
+    padding: 10px;
+    height: fit-content;
+    width: auto;
+}
+.adventure-awaits{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
 }
