@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Basic HTML and CSS Quiz</title>
+    <meta name="description" content="Anita Katwalubala, BYU-Idaho wdd130, learning html and css, css and html quiz">
+    <meta name="author" content="Anita Katwalubala">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Anita Katwalubala | Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Name</legend>
+                <!-- form elements will go here -->
+                <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                </div>
+            </fieldset>
+            <fieldset>
+            <legend>HTML Questions</legend>
+              <!-- form elements will go here -->
+                <div class="form-item q1">
+                    <label for="q1">What does the acronym HTML stand for?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form-item q2">
+                    <label for="q2">What are HTML tags composed of?</label>
+                    <textarea id="q2" name="q2" rows="4" placeholder="opening tag, etc"></textarea>
+                </div>             
+            </fieldset>
+            <fieldset>
+                <legend>CSS Questions</legend>
+                <!-- form elements will go here -->
+                <div class="form-item q3">
+                    <label for="q3">What is included in the CSS syntax?</label>
+                    <select id="q3" name="q3">
+                      <option value="" selected disabled>Choose One...</option>
+                      <option value="selector">Selector</option>
+                      <option value="declaration">Declaration</option>
+                      <option value="both">Both</option>
+                    </select>
+                    </div>
+                <div class="form-item q4">
+                <label for="q4">What is the top margin given this declaration?</label>
+                <p>margin: 15px 10px 20px;</p>
+                <input type="number" id="q4" name="q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 🌸 Basic HTML and CSS Quiz 🌸 Anita Katwalubala</p>
+    </footer>
+</body>
+</html>
