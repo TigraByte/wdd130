@@ -34,53 +34,33 @@ p{
     padding-left: 10px;
 }
 
-
-
 div h1{
     position: absolute;
-    top: 5px;
+    top: 130px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-family: var(--heading-font);
     color: var(--accent2-color);
     background-color: var(--secondary-color);
     opacity: .7;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 20px
 }
 
-div article{
-    position: absolute;
-    top: 120px;
-    margin: auto;
-    height: auto;
-    background-color: var(--accent2-color);
-    opacity: .8;
-    width: 80%;
-    right: 10%;
-}
-div article img{
-     /*img inside the article floats to right of p*/
-    width: auto;
-    height: 130px;
-    float: right;
-    padding: 10px;
-}
 main img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero {
-    position: relative;
-}
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     opacity: .9;
-    text-align: center;
-
-    
+    text-align: center;  
 }
+
 nav a {
     color: var(--nav-link-color);
     text-decoration: none;
@@ -158,16 +138,103 @@ section h2{
     padding-left: 15%;
     text-decoration: none;
 }
-.history-description img{
-    border: 2px solid #143e30;
+
+.ContactForm_button {
+    height: 60px;
+    margin: .8rem 0;
+    padding: .8rem;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 19px;
 }
-.history-description p{
-    padding: 10px;
-    height: fit-content;
-    width: auto;
-}
-.adventure-awaits{
+form{
+    width:650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    background-color: #eee;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+}
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3em;
+}
+label, input, button, select, textarea{
+    font-family:'Courier New', Courier, monospace
+}
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea{
+    padding: .5rem;
+    font-size: 1.1rem
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
 }
 
+.ContactForm_button {
+    margin: 1rem;
+    padding: .75rem;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    border: none;
+}
+button:hover{
+    background-color: var(--accent1-color);
+}
+
+.column2{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+iframe{
+    float: left;
+    border: 1px dotted gray;    
+}
+
+.company-info{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    margin-top: 140px;
+    gap: 0px 0px; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.employee-profile-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+
+}
+img{
+    border: 1px solid black
+}
+
+.column4{
+    display: grid;
+    align-items: start;
+}
+.company-info1{
+    padding-right: 10px;
+    max-width:fit-content;
+}
