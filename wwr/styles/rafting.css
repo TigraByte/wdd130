@@ -181,8 +181,8 @@ section h2{
     color: var(--secondary-color);
     background-color: white;
     opacity: 7;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
     padding-left: 20px
 }
 
