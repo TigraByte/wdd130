@@ -172,14 +172,14 @@ section h2{
 }
 
 
-.contact-h1{
+.company-info h1{
     position: absolute;
     top: 130px;
     width: 100%;
     text-align: left;
     font-family: var(--heading-font);
-    color: var(--accent2-color);
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: white;
     opacity: 7;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -286,4 +286,97 @@ img{
 .company-info1{
     padding-right: 10px;
     max-width:fit-content;
+}
+.mission{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.rafters{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    border-top: 10px solid var(--secondary-color);
+    border-bottom: 10px solid var(--secondary-color);
+}
+.rafters h3{
+    text-align: center;
+    }
+
+.reservation {
+    position: relative;
+    background: var(--accent2-color);
+}
+.reservation h1{
+    background: var(--accent2-color);
+    color: var(--secondary-color);
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+
+}
+.reservation button{
+    margin: 1rem;
+    padding: .75rem;
+    background: var(--secondary-color);
+    color: var(--accent2-color);
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.reservation button:hover{
+    background-color: var(--accent1-color);
+}
+table {
+    font-family: var(--paragraph-font);
+    font-size: smaller;
+    color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table {
+    margin: 5rem;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px dotted black;
+    padding: 4px;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: white;
+}
+
+thead, tfoot {
+    background-color: var(--secondary-color);
+    color: white;
+    border-bottom: 5px double black;
+    color: white
+}
+
+tfoot {
+    border-top: 5px double black;
+}
+.trips{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+table h3{
+    color: black;
 }
