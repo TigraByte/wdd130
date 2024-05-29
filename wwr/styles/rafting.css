@@ -72,6 +72,8 @@ main img {
 
 .hero {
     position: relative;
+    border-bottom: 5px solid var(--secondary-color);
+    padding-bottom: 30px
 }
 nav {
     background-color: var(--nav-background-color);
@@ -127,7 +129,24 @@ section h2{
 .history-description{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    border-bottom: 5px solid var(--secondary-color);
+    text-align: left;
+    column-gap: 10px
 }
+.history-description img{
+    border: 2px double #143e30;
+    width: 100%
+}
+.history-description1{
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 0;
+}
+.happy-client-img{
+    border: none;
+}
+
 .navigation {
 	display: flex;
 	list-style: none;
@@ -158,14 +177,8 @@ section h2{
     padding-left: 15%;
     text-decoration: none;
 }
-.history-description img{
-    border: 2px solid #143e30;
-}
-.history-description p{
-    padding: 10px;
-    height: fit-content;
-    width: auto;
-}
+
+
 .adventure-awaits{
     display: grid;
     grid-template-columns: repeat(5, auto);
