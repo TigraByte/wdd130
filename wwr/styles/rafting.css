@@ -311,6 +311,8 @@ iframe{
     text-align: left;
     border-top: 10px solid var(--secondary-color);
     border-bottom: 10px solid var(--secondary-color);
+    background-color: #f2f2f2;
+    gap: 1px;
 }
 .rafters h3{
     text-align: center;
