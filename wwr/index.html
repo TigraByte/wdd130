@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapids Rafting Company Name Home Page</title>
+    <meta name="description" content="home page white water rafting page">
+    <meta name="author" content="Anita Katwalubala">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rapids Site Logo">
+        <nav>
+            <ul class="navigation">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="trips.html" target="_blank">Trips</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/rafting-home.jpg" alt="river rafting">
+            <h1>Welcome to the Rapids!</h1>
+            <button type="submit" onclick="window.location.href='trips.html';">View our available adventures!</button>
+        </div>
+
+        <section>
+            <div class="home-images">
+                <figure><img src="images/rafting6.jpg" alt="Adventure Pros Rafters" width="200"><figcaption>Whether you want a relaxing getaway from the mundane day to day life or you want an adrenaline thrill, Rapids is here to take you on an adventure that will be one for the books!</figcaption></figure>
+                <figure><img src="images/rafting7.jpg" alt="Rafting Equipment" width="200"><figcaption>We have all the equipment you need! Come ready for an adventure that will create lasting lifetime memories!</figcaption></figure>
+           </div>
+        </section>
+
+        <form class="newsletter">
+            <fieldset>
+            <legend>Subscribe today to receive news about our latest adventures and routes!</legend>
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name (optional)">
+                </div>
+                <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" placeholder="Your email address*">
+                </div>         
+            <div class="form-item column5">
+                <label for="subscribe">Yes! I want to recieve updates about new routes</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                </div>
+                <button type="submit" class="ContactForm_button">Send</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy;2024 🌸 Rapids 🌸 Anita Katwalubala
+        </p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook" width="30">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter" width="30">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram" width="30">
+            </a>
+            <a href="images/wireframe-home.png">
+                Wireframe
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

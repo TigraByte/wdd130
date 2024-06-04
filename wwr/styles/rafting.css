@@ -288,9 +288,6 @@ iframe{
     border-bottom: 1px dotted black;
 
 }
-img{
-    border: 1px solid black
-}
 
 .column4{
     display: grid;
@@ -392,4 +389,28 @@ tfoot {
 }
 table h3{
     color: black;
+}
+.home-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid var(--secondary-color);
+    padding: 10px
+}
+
+.hero button{
+    margin: 1rem;
+    padding: .5rem;
+    background: var(--secondary-color);
+    color: var(--accent2-color);
+    font-size: 1rem;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px var(--secondary-color);
+}
+.hero button:hover{
+    background-color: var(--primary-color);
 }
